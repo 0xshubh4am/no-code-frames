@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# No Code Frames Project
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+The No Code Frames Project allows users to interact with blockchain smart contracts without writing any code. By simply entering a contract address, users can fetch all available functions from the contract's ABI and select which functions to include in their frames. This project streamlines the development process and makes smart contract functionalities more accessible to a broader audience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Easy Interaction**: Enter a contract address and automatically fetch all available functions from its ABI.
+- **Function Selection**: Choose which functions to include in your frames without writing any code.
+- **Improved Accessibility**: Enables non-developers to interact with blockchain smart contracts.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Problem It Solves
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The No Code Frames Project solves the challenge of integrating and interacting with smart contracts on blockchain networks without requiring extensive coding knowledge. It simplifies the process for users, making it easier for developers and non-developers alike to leverage smart contract functionalities.
 
-## Learn More
+## Challenges
 
-To learn more about Next.js, take a look at the following resources:
+1. **Learning Farcaster**: Understanding how to use Farcaster for integrating social elements and interactions within the frames.
+2. **Fetching ABIs**: Implementing the logic to accurately fetch and decode ABIs from given contract addresses.
+3. **API Development**: Creating APIs to handle ABI fetching, function selection, and interaction, and connecting these APIs with MongoDB for data storage and retrieval.
+4. **MongoDB Integration**: Ensuring smooth integration with MongoDB for storing contract addresses, ABIs, and user-selected functions, maintaining data integrity and performance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Enter Contract Address**: Input the smart contract address in the provided field.
+2. **Fetch Functions**: The project will fetch all available functions from the contract's ABI.
+3. **Select Functions**: Choose which functions to include in your frames.
